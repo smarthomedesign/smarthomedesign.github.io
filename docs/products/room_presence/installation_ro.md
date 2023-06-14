@@ -26,7 +26,7 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 
 	{: .note}
 	> ##### Nume dispozitiv: shd-room-presence-mac_of_the_device
-	> ##### Daca aveti mai multe dispozitive, recomandarea ii sa le conectati unul cate unul pentru a nu le pierde ordinea, care in ce camera este situat.
+	> ##### Daca aveti mai multe dispozitive, recomandarea este sa le conectati unul cate unul pentru a nu le pierde ordinea, care in ce camera este situat.
 
 2. Odata conectati la dispozitiv o sa fiti redirectionati la pagina pentru a seta conexiunea dispozitivului in reteaua locala.
 
