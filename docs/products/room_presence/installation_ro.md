@@ -18,21 +18,21 @@ Toate dispozitivele contin softul preinstlat.
 
 In momentul in care conectati dispozitivul la o sursa de curent de 5v cu cablul MicroUSB sau folosind pinii de pe placa (5v si ground - pinii nu sunt conectati pe placa, trebuie lipiti ulterior), dispozitivul o sa fie vizibil ca si o retea WiFi.
 
-1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispoiztiv si sa-i faceti setarile necesare pentru a se conecta la reteaua WiFi.
-Deoarece dispozitivul foloseste un cip ESP32 doar reletele WiFi pe 2.4 GHz WiFi o sa fie dosponibile pentru conectare. 
+1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv si sa-i faceti setarile necesare pentru a se conecta la reteaua WiFi.
+Deoarece dispozitivul foloseste un cip ESP32 doar reletele WiFi pe 2.4 GHz WiFi o sa fie disponibile pentru conectare. 
 Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu avea probleme cu conexiunea.
 
 	![image](./images/installation/device_wifi.png)
 
 	{: .note}
-	> ##### Numele dispozitiv: shd-room-presence-mac_of_the_device
+	> ##### Nume dispozitiv: shd-room-presence-mac_of_the_device
 	> ##### Daca aveti mai multe dispozitive, recomandarea ii sa le conectati unul cate unul pentru a nu le pierde ordinea, care in ce camera este situat.
 
 2. Odata conectati la dispozitiv o sa fiti redirectionati la pagina pentru a seta conexiunea dispozitivului in reteaua locala.
 
 	![image](./images/installation/device_wifi_selection.png)
 
-	Dupa ce ati selectat reteaua WiFi si ati introdus parola dispozitivul o sa se conecteze la reteaua dumneavoastra.
+	Dupa ce ati selectat reteaua WiFi si ati introdus parola dispozitivului o sa se conecteze la reteaua dumneavoastra.
 
 3. Daca dispozitivul s-a conectat cu succes la reteaua WiFi o sa devina vizibil in Home Assistance. 
 	O sa apara o notificare:
@@ -40,7 +40,7 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 	![image](./images/installation/ha_notification.png)
 
 	{: .note}
-	> Daca timp de 30 secunde dispozitivul nu apare in by Home Assistance incercati sa restartati dispozitivul sau verificati setarile retelei WiFi (vedeti saterile din router)
+	> Daca timp de 30 secunde dispozitivul nu apare in  Home Assistance incercati sa restartati dispozitivul sau verificati setarile retelei WiFi (vedeti saterile din router)
 	> 
 	> Daca dispozitivul nu este vizibil dupa restart incercati sa restartati Home Assistant.
 	> 
@@ -105,7 +105,7 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 
 12. Instalati noul soft
 
-13. Dupa ce instalarea este completa Home Assistant la 
+13. Dupa ce instalarea este completa in Home Assistant navigati la 
 	Settings - Devices & Services si Integrarea ESPHome selectand dispozitivul o sa observati ca toate entitatiile contin numele introdus
 	
 	![image](./images/installation/doubled_sensors.png)
