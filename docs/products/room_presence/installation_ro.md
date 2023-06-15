@@ -16,11 +16,11 @@ Toate dispozitivele contin softul preinstlat.
 >
 > Trebuie sa aveti Integrarea ESPHome preinstalata in Home Assistant.
 
-In momentul in care conectati dispozitivul la o sursa de curent de 5v cu cablul MicroUSB sau folosind pinii de pe placa (5v si ground - pinii nu sunt conectati pe placa, trebuie lipiti ulterior), dispozitivul o sa fie vizibil ca si o retea WiFi.
+In momentul in care conectati dispozitivul la o sursa de curent de 5v cu cablul MicroUSB sau folosind pinii de pe placa (5v si ground - pinii nu sunt conectati pe placa, trebuie lipiti ulterior), acesta o sa fie vizibil ca si o retea WiFi.
 
-1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv si sa-i faceti setarile necesare pentru a se conecta la reteaua WiFi.
-Deoarece dispozitivul foloseste un cip ESP32 doar reletele WiFi pe 2.4 GHz WiFi o sa fie disponibile pentru conectare. 
-Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu avea probleme cu conexiunea.
+1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv facandu-i setarile necesare pentru a se conecta la reteaua WiFi.
+Deoarece dispozitivul foloseste un cip ESP32, doar retele WiFi pe 2.4 GHz o sa fie disponibile pentru conectare. 
+Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz, pentru a evita ulterioarele probleme cu conexiunea.
 
 	![image](./images/installation/device_wifi.png)
 
@@ -28,11 +28,11 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 	> ##### Nume dispozitiv: shd-room-presence-mac_of_the_device
 	> ##### Daca aveti mai multe dispozitive, recomandarea este sa le conectati unul cate unul pentru a nu le pierde ordinea, care in ce camera este situat.
 
-2. Odata conectati la dispozitiv o sa fiti redirectionati la pagina pentru a seta conexiunea dispozitivului in reteaua locala.
+2. Odata conectati la dispozitiv o sa fiti redirectionati la pagina pentru a seta conexiunea la reteaua WiFi locala.
 
 	![image](./images/installation/device_wifi_selection.png)
 
-	Dupa ce ati selectat reteaua WiFi si ati introdus parola dispozitivului o sa se conecteze la reteaua dumneavoastra.
+	Dupa ce ati selectat reteaua WiFi si ati introdus parola, dispozitivul o sa se conecteze la reteaua dumneavoastra locala.
 
 3. Daca dispozitivul s-a conectat cu succes la reteaua WiFi o sa devina vizibil in Home Assistance. 
 	O sa apara o notificare:
@@ -40,9 +40,9 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 	![image](./images/installation/ha_notification.png)
 
 	{: .note}
-	> Daca timp de 30 secunde dispozitivul nu apare in  Home Assistance incercati sa restartati dispozitivul sau verificati setarile retelei WiFi (vedeti saterile din router)
+	> Daca timp de 30 secunde dispozitivul nu apare in  Home Assistance incercati sa restartati dispozitivul sau verificati setarile retelei WiFi (vedeti saterile routerului dumneavoastra)
 	> 
-	> Daca dispozitivul nu este vizibil dupa restart incercati sa restartati Home Assistant.
+	> Daca dispozitivul nu este vizibil dupa restart, incercati sa restartati Home Assistant.
 	> 
 	> Daca tot nu esti vizibil dupa (pasul 3) sau nu apare notificarea incercati (pasul 4)
 
@@ -56,15 +56,15 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 	
 	![image](./images/installation/configuration_confirmation.png)
 
-6. Daca configurarea este cu succes o sa primiti o notificare in care puteti selecta locul in care o sa fie pus dispozitivul  (camera)
+6. Daca configurarea este cu succes o sa primiti o notificare in care puteti selecta locul in care o sa fie pus dispozitivul  (camera).
 
 	![image](./images/installation/configuration_area.png)
 
-7. Dupa ce selectati camera dispozitivul o sa fie vizibil in Integrarea ESPHome (il puteti cauta dupa nume)
+7. Dupa ce selectati camera dispozitivul o sa fie vizibil in Integrarea ESPHome (il puteti cauta dupa nume).
 	
 	![image](./images/installation/esphome_devices.png)
 
-8. Selectatti dispozitivul care tocmai l-ai instalat
+8. Selectati dispozitivul care tocmai l-ati instalat.
 
 	![image](./images/installation/device_entities.png)
 
@@ -72,20 +72,20 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 	
 	![image](./images/installation/device_sensors.png)
 
-8. Ca sa schimbati numele camerei aveti doua optiuni:
+10. Ca sa schimbati numele camerei aveti doua optiuni:
 	
-	1. Recomandata: In ESPHome o sa apara un nou dispozitiv cu optiunea de ADOPT.
+	10.1. Recomandata: In ESPHome o sa apara un nou dispozitiv cu optiunea de ADOPT.
 		
 		![image](./images/installation/adopt_device.png)
 	
-	2. Puteti sa editati numele dispozitivului si id-ul fiecarei entitati.
+	10.2. Puteti sa editati numele dispozitivului si id-ul fiecarei entitati.
 		
 	
-9. Dupa ce dispozitivul este instalat (ADOPTED) in ESPHome puteti sa vedeti codul yaml
+11. Dupa ce dispozitivul este instalat (ADOPTED) in ESPHome puteti sa vedeti codul yaml.
 	
 	![image](./images/installation/default_yaml.png)
 
-10. Adaugati substitutile urmatoare in cod (dupa randul 2 in yaml):
+12. Adaugati substituirile urmatoare in cod (dupa randul 2 in yaml):
 	
 	````markdown 
 	room: "Bedroom" # replace this with your room name
@@ -99,16 +99,16 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz pentru a nu a
 	```` 
 	Aici puteti gasi intregul cod yaml pentru dispozitiv [here](https://github.com/smarthomedesign/room_presence/blob/main/room_presence.yaml)
 
-11. Modificati numele camerei cu propriul vostru nume
+13. Redenumiti numele camerei cu propriul vostru nume.
 
 	![image](./images/installation/yaml_with_offsets.png)
 
-12. Instalati noul soft
+14. Instalati noul soft.
 
-13. Dupa ce instalarea este completa in Home Assistant navigati la 
-	Settings - Devices & Services si Integrarea ESPHome selectand dispozitivul o sa observati ca toate entitatiile contin numele introdus
+15. Dupa ce instalarea este completa in Home Assistant navigati la 
+	Settings - Devices & Services si Integrarea ESPHome selectand dispozitivul o sa observati ca toate entitatiile contin numele introdus.
 	
 	![image](./images/installation/doubled_sensors.png)
 
-14. O sa va apara entitatiile duplicate: default_room_<sensor_name> sunt entitatiile inactive. 
+16. O sa va apara entitatiile duplicate: default_room_nume_senzor sunt entitatiile inactive. 
 	Dupa un restart la Home Assistant o sa puteti sterge entitatiile respective.
