@@ -16,11 +16,11 @@ Toate dispozitivele contin softul preinstlat.
 >
 > Trebuie sa aveti Integrarea ESPHome preinstalata in Home Assistant.
 
-In momentul in care conectati dispozitivul la o sursa de curent de 5v cu cablul MicroUSB sau folosind pinii de pe placa (5v si ground - pinii nu sunt conectati pe placa, trebuie lipiti ulterior), acesta o sa fie vizibil ca si o retea WiFi.
+Dupa conectarea dispozitivul la o sursa de curent de 5v cu cablul MicroUSB sau folosind pinii de pe placa (5v si ground - pinii nu sunt conectati pe placa, trebuie lipiti ulterior), acesta o sa fie vizibil ca si o retea WiFi.
 
-1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv facandu-i setarile necesare pentru a se conecta la reteaua WiFi.
+1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv, efectuand setarilor necesare dispozitivului pentru conectarea la reteaua WiFi locala.
 Deoarece dispozitivul foloseste un cip ESP32, doar retele WiFi pe 2.4 GHz o sa fie disponibile pentru conectare. 
-Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz, pentru a evita ulterioarele probleme cu conexiunea.
+Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a exclude ulterioare probleme de conexiunea.
 
 	![image](./images/installation/device_wifi.png)
 
@@ -28,7 +28,7 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz, pentru a evi
 	> ##### Nume dispozitiv: shd-room-presence-mac_of_the_device
 	> ##### Daca aveti mai multe dispozitive, recomandarea este sa le conectati unul cate unul pentru a nu le pierde ordinea, care in ce camera este situat.
 
-2. Odata conectati la dispozitiv o sa fiti redirectionati la pagina pentru a seta conexiunea la reteaua WiFi locala.
+2. Dupa conectarea la dispozitiv, o sa fiti redirectionati in pagina cu setarile pentru conexiunea la reteaua WiFi locala.
 
 	![image](./images/installation/device_wifi_selection.png)
 
@@ -64,7 +64,7 @@ Va rog sa evitati sa folositi retele combinate de 2.5 GHz si 5 GHz, pentru a evi
 	
 	![image](./images/installation/esphome_devices.png)
 
-8. Selectati dispozitivul care tocmai l-ati instalat.
+8. Selectati dispozitivul pe care tocmai l-ati instalat.
 
 	![image](./images/installation/device_entities.png)
 
