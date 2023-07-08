@@ -91,7 +91,7 @@ Please avoid using combined 2.5 GHz and 5 GHz WiFi networks because ESP32 may ca
 	room: "Bedroom" # replace this with your room name
 	  temperature_offset: "-11.5"
 	  humidity_offset: "0"
-	  illuminance_offset: "-10"
+	  illuminance_offset: "0"
 	  temperature_update_interval: "20s"
 	  illuminance_update_interval: "20s"
 	  pir_delay_off: "30s"
