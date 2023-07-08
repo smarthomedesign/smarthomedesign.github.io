@@ -1,7 +1,7 @@
 title: Smart Home Design
 description: we designe smart products for your home
-# theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+# remote_theme: pmarsceill/just-the-docs
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
