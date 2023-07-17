@@ -2,7 +2,7 @@
 layout: default
 title: Instalare (ro)
 parent: Room Presence
-nav_order: 2
+nav_order: 3
 grand_parent: Products
 ---
 

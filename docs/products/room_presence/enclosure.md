@@ -2,7 +2,7 @@
 layout: default
 title: Enclosure
 parent: Room Presence
-nav_order: 4
+nav_order: 6
 grand_parent: Products
 ---
 

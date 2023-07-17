@@ -2,7 +2,7 @@
 layout: default
 title: Hardware
 parent: Room Presence
-nav_order: 1
+nav_order: 5
 grand_parent: Products
 ---
 

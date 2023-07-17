@@ -2,7 +2,7 @@
 layout: default
 title: Firmware
 parent: Room Presence
-nav_order: 5
+nav_order: 7
 grand_parent: Products
 ---
 
