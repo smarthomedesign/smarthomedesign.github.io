@@ -27,7 +27,7 @@ After you click CONNECT when connections is in progress press BOOT button on dev
 ></esp-web-install-button>
 
 
-## Current development version is 1.3.3 (17.07.2023)
+## Current development version is 1.3.3 (18.07.2023)
 <esp-web-install-button
   manifest="/docs/products/room_presence/firmware/manifest_development.json"
 ></esp-web-install-button>
