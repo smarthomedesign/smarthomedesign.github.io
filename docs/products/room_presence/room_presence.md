@@ -6,7 +6,7 @@ nav_order: 1
 has_children: true
 ---
 
-## General presentation of the Room Presence
+## General presentation of the Room Presence RP1
 
 Room presence is a multisensor device that can detect:
 * Ambient Light
