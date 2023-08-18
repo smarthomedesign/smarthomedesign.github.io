@@ -8,7 +8,7 @@ grand_parent: Products
 
 # Hardware Overview
 
-## Room Presence board contain:
+## Room Presence RP1 board contain:
 
 ![image](./images/full_pcb.png)
 

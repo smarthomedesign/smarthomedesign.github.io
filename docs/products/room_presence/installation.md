@@ -6,7 +6,7 @@ nav_order: 2
 grand_parent: Products
 ---
 
-# Use this page to configurate Room Presence device into Home Assistant.
+# Use this page to configurate Room Presence RP1 device into Home Assistant.
 
 All devices comes with preinstalled firmware.
 {: .highlight }

@@ -6,7 +6,7 @@ nav_order: 6
 grand_parent: Products
 ---
 
-## Enclosure for Room Presence can be in two colors: 
+## Enclosure for Room Presence RP1 can be in two colors: 
 
 ### WHITE
 

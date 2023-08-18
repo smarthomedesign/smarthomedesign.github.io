@@ -6,7 +6,7 @@ nav_order: 3
 grand_parent: Products
 ---
 
-# Utilizati pagina aceasta pentru a configura dispozitivul Room Presence in Home Assistant.
+# Utilizati pagina aceasta pentru a configura dispozitivul Room Presence RP1 in Home Assistant.
 
 Toate dispozitivele contin softul preinstlat.
 {: .highlight }
