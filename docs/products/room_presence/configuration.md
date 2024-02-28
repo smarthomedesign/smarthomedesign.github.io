@@ -6,7 +6,7 @@ nav_order: 4
 grand_parent: Products
 ---
 
-## Informatins about configuration options
+## Informations about configuration options
 
 ![image](./images/configuration/configuration_entities.png)
 
