@@ -4,7 +4,10 @@ layout: home
 nav_order: 1
 ---
 
+Introducing our lineup of smart devices powered by the ESP32 chip – the pinnacle of IoT innovation. With ESPHome and Home Assistant integration, controlling and automating your smart home has never been simpler. Enjoy the benefits of seamless connectivity, easy setup, and endless customization options with ESPHome's intuitive platform.
 
-|:-------------|:------------------|:------|
-| Room Presence RP1|  Toilet Flusher   | Pet feeder  |
-|[![image](./docs/products/room_presence/images/room_presence_small.png)](/docs/products/room_presence/room_presence.html)| coming soon... | ![image](/docs/products/pet_feeder/images/lulu_small.png) |
+Each device comes with a custom-made 3D printed case, tailored to fit and enhance its functionality. From sleek designs to personalized touches, our cases add a touch of sophistication to your smart home setup.
+
+|:-------------|:--------------------|:------|
+| Room Presence RP1   |   Room Presence RP2   |      Aquarium Controller   |
+|[![](/docs/room_presence/rp1/images/room_presence_small.png)](/docs/room_presence/rp1/room_presence_rp1)| [![](/docs/room_presence/rp2/images/room_presence_rp2.jpeg)](/docs/room_presence/rp2/room_presence_rp2)| [![](/docs/aquarium_controller/images/aquarium_controller_white_small_6.jpg)](/docs/aquarium_controller/aquarium_controller)|
