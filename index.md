@@ -10,4 +10,4 @@ Each device comes with a custom-made 3D printed case, tailored to fit and enhanc
 
 |:-------------|:--------------------|:------|
 | Room Presence RP1   |   Room Presence RP2   |      Aquarium Controller   |
-|[![image](./docs/room_presence/rp1/images/room_presence_small.png)](/docs/room_presence/rp1/room_presence_rp1.html)| [![image](./docs/room_presence/rp2/images/room_presence_rp2.jpeg)](/docs/room_presence/rp2/room_presence_rp2.html)| [![image](./docs/aquarium_controller/images/aquarium_controller_white_small_6.jpg)](/docs/aquarium_controller/aquarium_controller.html)|
+|[![](/docs/room_presence/rp1/images/room_presence_small.png)](/docs/room_presence/rp1/room_presence_rp1)| [![](/docs/room_presence/rp2/images/room_presence_rp2.jpeg)](/docs/room_presence/rp2/room_presence_rp2)| [![](/docs/aquarium_controller/images/aquarium_controller_white_small_6.jpg)](/docs/aquarium_controller/aquarium_controller)|

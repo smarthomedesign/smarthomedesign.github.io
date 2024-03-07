@@ -11,7 +11,7 @@ grand_parent: Room Presence
 
 ## Room Presence RP1 board contain:
 
-![image](./images/full_pcb.png)
+![](/docs/room_presence/rp1/images/full_pcb.png)
 
 * ESP32-WROOM-32E ([datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf))
 * BH1750FVI Ambient Light Sensor ([datasheet](https://datasheet.lcsc.com/lcsc/1811081611_ROHM-Semicon-BH1750FVI-TR_C78960.pdf))

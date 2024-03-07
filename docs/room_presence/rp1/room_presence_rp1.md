@@ -17,4 +17,4 @@ Room Presence RP1 is a multisensor device that can detect:
 
 All sensors have an corespondent entity in Home Assistant that ca be used in automations.
     
-![image](./images/room_presence.png)
+![](/docs/room_presence/rp1/images/room_presence.png)

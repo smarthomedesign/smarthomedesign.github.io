@@ -22,7 +22,7 @@ Dupa conectarea dispozitivul la o sursa de curent de 12v cu alimentatorul din pa
 Deoarece dispozitivul foloseste un cip ESP32, doar retele WiFi pe 2.4 GHz o sa fie disponibile pentru conectare. 
 Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a exclude ulterioare probleme de conexiunea.
 
-	![image](./images/installation/controller_wifi.jpeg)
+	![](/docs/aquarium_controller/images/installation/controller_wifi.jpeg)
 
 	{: .note}
 	> ##### Nume dispozitiv: aquarium_controller-p1-mac_dispozitiv
@@ -33,23 +33,23 @@ Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a 
 	{: .note}
 	> #####	NOTA: Daca nu s-a facut redirectionarea la pagina de conectare a dispozitivului, in orice browser (Edge, Chrome, FireFox) tastati adresa: http://192.168.4.1
 
-	![image](./images/installation/login.jpeg)
+	![](/docs/aquarium_controller/images/installation/login.jpeg)
 
 3. Odata conectat la dispozitiv folositi datele de acces de pe spatele dispozitivului 
 	utilizator (username) si parola (password) pentru a obtine acces.
 
 4. Dupa ce ati selectat reteaua WiFi si ati introdus parola, dispozitivul o sa se conecteze la reteaua dumneavoastra locala.
 
-	![image](./images/installation/network_save.jpeg)	
+	![](/docs/aquarium_controller/images/installation/network_save.jpeg)	
 
 5. In functie de ce model de router aveti, cautati adresa IP a dispozitivului adaugat (ex: 192.168.1.40). 
 	
-	![image](./images/installation/find_ip.jpg)
+	![](/docs/aquarium_controller/images/installation/find_ip.jpg)
 
 6. Folosing un browser web tastati adresa IP a dispozitivului pentru a va putea conecta la interfata WEB (http://192.168.1.105).
 
 7. Folositi datele de acces de pe spatele dispozitivului: utilizator (username) si parola (password)
-	![image](./images/installation/web_page.jpg)
+	![](/docs/aquarium_controller/images/installation/web_page.png)
 
 ## Calibrare:
 Pentru o calibrare adecvata a dispozitivului folositi urmatorii pasi:

@@ -18,4 +18,4 @@ Room Presence RP2 is a multisensor device that can detect:
 
 All sensors have an corespondent entity in Home Assistant that ca be used in automations.
     
-![image](./images/room_presence_rp2.jpeg)
+![](/docs/room_presence/rp2/images/room_presence_rp2.jpeg)

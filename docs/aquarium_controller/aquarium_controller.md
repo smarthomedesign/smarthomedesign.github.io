@@ -4,6 +4,7 @@ title: Aquarium Controller
 # parent: Products
 nav_order: 3
 has_children: true
+# permalink: /about/contact-us
 ---
 
 ## Aquarium Controller
@@ -11,7 +12,7 @@ has_children: true
 Introducing our Aquarium Controller with Peristaltic Pump, your ultimate solution for precise fertilization in your aquarium. With the ability to select and schedule dosing, monitor remaining liquid levels in the bottle, and manually calibrate as needed, this compact device ensures optimal nutrient levels for your aquatic plants. Its intuitive design and accurate dosing capabilities make it the perfect companion for maintaining a vibrant and healthy underwater ecosystem.
 
     
-![image](./images/aquarium_controller_white_p4_small.jpg)
+![](/docs/aquarium_controller/images/aquarium_controller_white_p4_small.jpg)
 
 
 Two types of controllers are available:
@@ -20,12 +21,12 @@ Both controllers have same functionalities, only difference is is on how many pu
 ### Aquarium Controller P1
 
 (1 pump)
-![image](./images/aquarium_controller_p1_black.jpg)
+![](/docs/aquarium_controller/images/aquarium_controller_p1_black.jpg)
 
 ### Aquarium Controller P4
 
 (max 4 pumps)
-![image](./images/aquarium_controller_white_p4_small.jpg)
+![](/docs/aquarium_controller/images/aquarium_controller_white_p4_small.jpg)
 
 
 

@@ -24,7 +24,7 @@ Dupa conectarea dispozitivul la o sursa de curent de 12v cu alimentatorul din pa
 Deoarece dispozitivul foloseste un cip ESP32, doar retele WiFi pe 2.4 GHz o sa fie disponibile pentru conectare. 
 Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a exclude ulterioare probleme de conexiunea.
 
-	![image](./images/installation/controller_wifi.jpeg)
+	![](/docs/aquarium_controller/images/installation/controller_wifi.jpeg)
 
 	{: .note}
 	> ##### Nume dispozitiv: aquarium_controller-p1-mac_of_the_device
@@ -35,7 +35,7 @@ Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a 
 	{: .note}
 	> #####	NOTA: Daca nu s-a facut redirectionarea la pagina de conectare a dispozitivului, in orice browser (Edge, Chrome, FireFox) tastati adresa: http://192.168.4.1
 
-	![image](./images/installation/login.jpeg)
+	![](/docs/aquarium_controller/images/installation/login.jpeg)
 
 3. Odata conectat la dispozitiv utilizati 
 	username:  **admin**
@@ -43,4 +43,4 @@ Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a 
 
 4. Dupa ce ati selectat reteaua WiFi si ati introdus parola, dispozitivul o sa se conecteze la reteaua dumneavoastra locala.
 
-	![image](./images/installation/network_save.jpeg)	
+	![](/docs/aquarium_controller/images/installation/network_save.jpeg)	

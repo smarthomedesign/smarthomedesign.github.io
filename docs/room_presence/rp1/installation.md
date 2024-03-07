@@ -23,7 +23,7 @@ Once you plug them on a power source of 5v with an MicroUSB cable or using pins(
 Because device is using an ESP32 cip will be able to connect to ONLY 2.4 GHz WiFi networks. 
 Please avoid using combined 2.5 GHz and 5 GHz WiFi networks because ESP32 may cause issues.
 
-	![image](./images/installation/device_wifi.png)
+	![image](/docs/room_presence/rp1/images/installation/device_wifi.png)
 
 	{: .note}
 	> ##### Device name: shd-room-presence-mac_of_the_device
@@ -31,14 +31,14 @@ Please avoid using combined 2.5 GHz and 5 GHz WiFi networks because ESP32 may ca
 
 2. After you are connected to your device a redirect page will bring you on device network setup page.
 
-	![image](./images/installation/device_wifi_selection.png)
+	![image](/docs/room_presence/rp1/images/installation/device_wifi_selection.png)
 
 	Once you entered WiFi network and password you device it should connect to your WiFi network.
 
 3. If device is connected successful on WiFi network will be discovered by Home Assistance. 
 	It should be a notification like this:
 	
-	![image](./images/installation/ha_notification.png)
+	![image](/docs/room_presence/rp1/images/installation/ha_notification.png)
 
 	{: .note}
 	> If you wait 30 seconds and is not discovered by Home Assistance you can restart the device and check if is connecting to WiFi network (maybe check router settings)
@@ -51,40 +51,40 @@ Please avoid using combined 2.5 GHz and 5 GHz WiFi networks because ESP32 may ca
 	### Settings - Devices & Services 
 	and you should see the device here:
 
-	![image](./images/installation/devices_list.png)
+	![image](/docs/room_presence/rp1/images/installation/devices_list.png)
 
 5. Click on device CONFIGURE
 	
-	![image](./images/installation/configuration_confirmation.png)
+	![image](/docs/room_presence/rp1/images/installation/configuration_confirmation.png)
 
 6. If configuration is succesfully you will receive a notification to select the area (room for the device)
 
-	![image](./images/installation/configuration_area.png)
+	![image](/docs/room_presence/rp1/images/installation/configuration_area.png)
 
 7. After you select the area check ESPHome integration and you should find the device in there (base on the name)
 	
-	![image](./images/installation/esphome_devices.png)
+	![image](/docs/room_presence/rp1/images/installation/esphome_devices.png)
 
 8. Select the device that you just installed
 
-	![image](./images/installation/device_entities.png)
+	![image](/docs/room_presence/rp1/images/installation/device_entities.png)
 
 9. If you click on device you should have all available sensors added in Home Assistant with default_room name
 	
-	![image](./images/installation/device_sensors.png)
+	![image](/docs/room_presence/rp1/images/installation/device_sensors.png)
 
 8. In order to change device room name you have 2 options.
 	
 	1. RECOMANDED: In ESPHome a new device will be descovered there for ADOPT.
 		
-		![image](./images/installation/adopt_device.png)
+		![image](/docs/room_presence/rp1/images/installation/adopt_device.png)
 	
 	2. You can change the device name then change entities name for that device
 		
 	
 9. After your devices is ADOPED in ESPHome and installed you will see the yaml code for that device
 	
-	![image](./images/installation/default_yaml.png)
+	![image](/docs/room_presence/rp1/images/installation/default_yaml.png)
 
 10. Add specific substitution code into yaml after name (row 2 in yaml):
 	
@@ -102,14 +102,14 @@ Please avoid using combined 2.5 GHz and 5 GHz WiFi networks because ESP32 may ca
 
 11. Replace room value with your room name that will host that device.
 
-	![image](./images/installation/yaml_with_offsets.png)
+	![image](/docs/room_presence/rp1/images/installation/yaml_with_offsets.png)
 
 12. Install new firmware
 
 13. After installation is completed in Home Assistant under 
 	Settings - Devices & Services and ESPHome integration select the newly added device and you will find entity names changed with the room name
 	
-	![image](./images/installation/doubled_sensors.png)
+	![image](/docs/room_presence/rp1/images/installation/doubled_sensors.png)
 
 14. In there you will see old entities called: default_room_<sensor_name> that are inactive. 
 	After a Home Assistant restart you can delete them.

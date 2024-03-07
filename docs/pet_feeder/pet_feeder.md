@@ -7,5 +7,3 @@ has_children: true
 ---
 
 This is my first client:
-
-![image](/docs/products/pet_feeder/images/lulu.png)

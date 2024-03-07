@@ -9,7 +9,7 @@ grand_parent: Room Presence
 
 ## Informations about configuration options
 
-![image](./images/configuration/configuration_entities.png)
+![](/docs/room_presence/rp1/images/configuration/configuration_entities.png)
 
 
 >## Device leds:
