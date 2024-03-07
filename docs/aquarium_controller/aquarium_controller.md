@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Aquarium Controller
-# parent: Products
 nav_order: 3
 has_children: true
-# permalink: /about/contact-us
 ---
 
 ## Aquarium Controller
