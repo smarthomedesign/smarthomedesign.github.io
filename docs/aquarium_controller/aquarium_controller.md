@@ -31,8 +31,8 @@ Both controllers have same functionalities, only difference is is on how many pu
 ### Functionalities:
 
 * Instant dose button
-* Daily dosing
-* Dosing quantity in ml
+* Dosing scheduler
+* Dosing quantity (ml)
 * Dosed liquid
 * Remaining liquid
 * Manual calibration
