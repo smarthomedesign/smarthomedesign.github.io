@@ -23,7 +23,7 @@ nav_order: 4
 
 4. Setati cantitatea de lichid care doriti sa fie dozata.
 
-5. Activati mecanismul de dozare automata.
+5. Activati mecanismul pentru dozare automata.
 
 
 
