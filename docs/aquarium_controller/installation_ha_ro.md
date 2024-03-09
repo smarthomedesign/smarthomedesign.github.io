@@ -20,7 +20,7 @@ Dupa conectarea dispozitivul la o sursa de curent de 12v cu alimentatorul din pa
 
 Dupa conectarea dispozitivul la o sursa de curent de 12v cu alimentatorul din pachet, acesta o sa fie vizibil ca si o retea WiFi.
 
-1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv, efectuand setarilor necesare dispozitivului pentru conectarea la reteaua WiFi locala.
+1. Puteti sa folositi orice laptop, calculator (care are WiFi) sau telefon pentru a va conecta la dispozitiv, efectuand setarile necesare dispozitivului pentru conectarea la reteaua WiFi locala.
 Deoarece dispozitivul foloseste un cip ESP32, doar retele WiFi pe 2.4 GHz o sa fie disponibile pentru conectare. 
 Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a exclude ulterioare probleme de conexiunea.
 
