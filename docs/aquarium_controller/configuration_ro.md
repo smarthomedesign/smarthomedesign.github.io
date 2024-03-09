@@ -27,5 +27,5 @@ nav_order: 4
 
 
 {: .note}
-> Nu uitati sa setati cantitatea totala de lichid din sticla, altfel sensorul de afisare a cantitatii ramase dupa fiecare dozare nu o sa furnizeze informatii reale.
+> Setati cantitatea totala de lichid din sticla, altfel sensorul de afisare a cantitatii ramase, dupa fiecare dozare, nu o sa furnizeze informatii reale.
 
