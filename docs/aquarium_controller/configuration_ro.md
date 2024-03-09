@@ -25,6 +25,8 @@ nav_order: 4
 5. Activati mecanismul pentru dozare automata.
 
 
-{: .highlight }
-Setati cantitatea totala de lichid din sticla, altfel sensorul de afisare a cantitatii ramase, dupa fiecare dozare, nu o sa furnizeze informatii reale.
-
+{: .important-title }
+> UTIL
+>
+> Setati cantitatea totala de lichid din sticla, altfel sensorul de afisare a cantitatii ramase, dupa fiecare dozare, nu o sa furnizeze informatii reale.
+>
