@@ -38,8 +38,8 @@ Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a 
 	![](/docs/aquarium_controller/images/installation/login.jpeg)
 
 3. Odata conectat la dispozitiv utilizati 
-	username:  **admin**
-	password: **admin@1234** pentru a va conecta la dispozitiv
+	Username:  (cel de pe dispozitiv)
+	Password: (ce-a de de pe dispozitiv)) pentru a va conecta la dispozitiv
 
 4. Dupa ce ati selectat reteaua WiFi si ati introdus parola, dispozitivul o sa se conecteze la reteaua dumneavoastra locala.
 
