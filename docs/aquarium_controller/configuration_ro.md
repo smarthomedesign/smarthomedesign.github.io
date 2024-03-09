@@ -3,7 +3,6 @@ layout: default
 title: Configurare (ro)
 parent: Aquarium Controller
 nav_order: 4
-# grand_parent: Products
 ---
 
 ## Configurarea dispozitivului pentru dozare automata:
