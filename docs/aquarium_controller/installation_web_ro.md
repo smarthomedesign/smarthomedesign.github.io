@@ -28,7 +28,7 @@ Recomandam evitarea folosirii retelelor combinate de 2.5 GHz si 5 GHz, pentru a 
 	> ##### Nume dispozitiv: aquarium_controller-p1-mac_dispozitiv
 	
 
-2. Dupa conectarea la dispozitiv, o sa fiti redirectionat in pagina cu setarile pentru conexiunea la reteaua WiFi locala.
+2. Dupa conectarea la dispozitiv si introducerea parolei (ce-a de pe dispozitiv) o sa fiti redirectionat in pagina cu setarile pentru conexiunea la reteaua WiFi locala.
 		
 	{: .note}
 	> #####	NOTA: Daca nu s-a facut redirectionarea la pagina de conectare a dispozitivului, in orice browser (Edge, Chrome, FireFox) tastati adresa: http://192.168.4.1
